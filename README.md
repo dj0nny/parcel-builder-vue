@@ -29,10 +29,10 @@ Run `npm run prod` or `yarn run prod` for creating an optimized production versi
 
 Inside a folder, open a terminal and type `npm init -y` or `yarn init -y` for creating a new `package.json` file. If you want a custom configuration, remove the `-y` flag from the command. Now, into the `package.json` file, in the `scripts` section, add:
 ```json
-"scripts" {
+  "scripts": {
     "dev": "parcel src/index.html",
     "prod": "parcel build src/index.html"
-}
+  }
 ```
 
 The `index.html` file is the entry point where the app will be render, if you'll use a framework like React or Vue for example.
