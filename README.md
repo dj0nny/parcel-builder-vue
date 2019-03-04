@@ -46,20 +46,7 @@ Into the terminal run `npm install -D parcel-bundler` or `yarn add parcel-bundle
 Now you can add your project's files into the folder. I'll suggest you to create a subfolder called `src` and work inside it.
 Also create a `index.js` file for adding custom packges or code.
 
-### Add custom packages
-
-Once Parcel is up and running, you can add packages via `npm` or `yarn`, using the `import` statement in your `index.js` file.
-
-__For example:__
-
-`npm install vue -D` or `yarn add vue --dev` for installing Vue
-
-Once Vue is installed, you can import it, into `index.js`, in this way:
-
-```javascript
-import Vue from { vue }
-```
-
+For more info see the [official documentation](https://parceljs.org/)
 
 ## Built with ❤ using:
 
