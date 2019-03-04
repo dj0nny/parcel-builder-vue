@@ -1,24 +1,26 @@
 <template>
   <div class="container">
-    <h1>{{ message }}</h1>
+    <Header/>
   </div>
 </template>
 
 <script>
+import Header from "./components/Header.vue";
+
 export default {
-  name: 'App',
-  data() {
-    return {
-      message: 'Using Parcel In A Vue.js App',
-    };
-  },
+  name: "App",
+  components: {
+    Header
+  }
 };
 </script>
 
-<style scoped>
-  .container {
-    width: 600px;
-    margin: 50px auto;
-    text-align: center;
-  }
+<style lang="scss">
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
 </style>

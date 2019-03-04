@@ -46,7 +46,7 @@ Into the terminal run `npm install -D parcel-bundler` or `yarn add parcel-bundle
 Now you can add your project's files into the folder. I'll suggest you to create a subfolder called `src` and work inside it.
 Also create a `index.js` file for adding custom packges or code.
 
-For more info see the [official documentation](https://parceljs.org/)
+For more info see the [official documentation](https://en.parceljs.org/getting_started.html)
 
 ## Built with ❤ using:
 
