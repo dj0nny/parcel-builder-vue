@@ -1,5 +1,11 @@
 # parcel-bundler-vue
 
+<p align="center">
+<img src="https://travis-ci.org/dj0nny/parcel-bundler-vue.svg?branch=dev" />
+<img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat">
+<img src="http://hits.dwyl.io/dj0nny/parcel-bundler-vue.svg">
+</p>
+
 > Set up a Vue.js web app using Parcel
 
 __[Parcel](https://parceljs.org/)__ is bundler for web application. This repo is an example of using Parcel to configure an app that uses the __Vue.js__ framework.
